@@ -22,7 +22,7 @@ angular.module('myApp', ['ngCheckAvailable']);
         <p data-ng-message="ngCheckAvailable">Email already in use</p>
         <p data-ng-message="required">This field is required</p>
     </div>
-    <!-- Pending passage -->
+    <!-- Pending message -->
     <div data-ng-show="signupForm.email.$pending.ngCheckAvailable">
         <p>Checking...</p>
     </div>
