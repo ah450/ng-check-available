@@ -1,0 +1,29 @@
+{
+  "name": "ng-check-available",
+  "description": "angular directive for checking if value (i.e username/password) is taken",
+  "main": "src/check_available.js",
+  "authors": [
+    "Ahmed H. Ismail"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "async",
+    "validator",
+    "available",
+    "taken"
+  ],
+  "homepage": "https://github.com/ah450/ng-check-available",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.8"
+  }
+}
